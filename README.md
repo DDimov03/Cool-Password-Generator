@@ -9,6 +9,6 @@ First you need to have pathhon installed on the local machine. inst:Linux(sudo a
 Then start the generator from the terminal or cmd: python Generator.py
 
 !!!If you have problems, try installing these things again with the command panel!!!
-
 pip isntall ast
+
 pip isntall random
