@@ -1,15 +1,69 @@
-# Password-generator
+# Password Generator
 
-For installation: Download both files "Generator.py"
+This is a simple password generator script written in Python. It allows you to create strong and secure passwords easily.
 
-How to launch:
+## Installation
 
-First you need to have pathhon installed on the local machine. inst:Linux(sudo apt-get install python3) Windows(https://www.python.org/)
+To use this password generator, follow these installation instructions:
 
-Then start the generator from the terminal or cmd: python Generator.py
+1. **Python Installation:**
+   - Ensure that Python is installed on your local machine. If it's not installed, you can download and install Python from the official website: [Python Downloads](https://www.python.org/downloads/).
 
-!!!If you have problems, try installing these things again with the command panel!!!
+   On Linux, you can use the following command to install Python 3:
 
-pip isntall ast
+   ```bash
+   sudo apt-get install python3
 
-pip isntall random
+Clone the Repository:
+
+Clone this GitHub repository to your local machine using the following command:
+git clone https://github.com/DDimov03/password-generator.git
+
+Navigate to the Project Directory:
+
+Change your current directory to the project directory:
+cd password-generator
+
+Navigate to the Project Directory:
+
+Change your current directory to the project directory:
+bash
+Copy code
+cd password-generator
+Usage
+To generate passwords using this script, follow these steps:
+
+Run the Script:
+
+Use the following command to run the script:
+bash
+Copy code
+python Generator.py
+This command will execute the password generator script.
+
+Follow the Prompts:
+
+The script will ask you for some input, such as the length of the password and whether you want to include numbers, special characters, etc.
+Generated Password:
+
+After providing the required input, the script will generate a password and display it on the screen.
+Troubleshooting
+If you encounter any issues while using the script, consider the following steps:
+
+Ensure Python is installed correctly.
+
+Verify that you are in the correct directory where "Generator.py" is located.
+
+Check your Python environment for the necessary libraries. You can install the required libraries using pip with the following commands:
+
+bash
+Copy code
+pip install ast
+pip install random
+Please note that "ast" and "random" are standard Python libraries and are usually included with a standard Python installation. You may not need to install them separately.
+
+Feel free to open an issue on this GitHub repository if you encounter any further issues or have questions about using the password generator script.
+
+Happy password generating!
+
+css
