@@ -16,7 +16,7 @@ On Linux, you can use the following command to install Python 3:
 sudo apt-get install python3
 ```
 
-Clone the Repository
+## Clone the Repository
 Clone this GitHub repository to your local machine using the following command:
 
 ```bash
@@ -30,7 +30,7 @@ Change your current directory to the project directory:
 cd password-generator
 ```
 
-To generate passwords using this script, follow these steps:
+## To generate passwords using this script, follow these steps:
 
 1) Run the Script
 2) Use the following command to run the script:
@@ -40,13 +40,13 @@ python Generator.py
 This command will execute the password generator script.
 ```
 
-Follow the Prompts
+## Follow the Prompts
 The script will ask you for some input, such as the length of the password and whether you want to include numbers, special characters, etc.
 
-Generated Password
+## Generated Password
 After providing the required input, the script will generate a password and display it on the screen.
 
-Troubleshooting
+## Troubleshooting
 If you encounter any issues while using the script, consider the following steps:
 
 Ensure Python is installed correctly.
@@ -62,4 +62,4 @@ Please note that "ast" and "random" are standard Python libraries and are usuall
 You may not need to install them separately.
 ```
 
-Feel free to open an issue on this GitHub repository if you encounter any further issues or have questions about using the password generator script.
+### Feel free to open an issue on this GitHub repository if you encounter any further issues or have questions about using the password generator script.
