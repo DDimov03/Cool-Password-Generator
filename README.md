@@ -16,6 +16,7 @@ On Linux, you can use the following command to install Python 3:
 sudo apt-get install python3
 ```
 
+
 Clone the Repository
 Clone this GitHub repository to your local machine using the following command:
 
