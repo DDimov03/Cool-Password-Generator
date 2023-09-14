@@ -23,14 +23,9 @@ Cool Password Generator is a simple Python application built with tkinter that a
 5. The generated password will be displayed in the text widget and copied to your clipboard.
 
 ## Screenshots
-![Screenshot](screenshot.png)
+![Password_G](https://github.com/DDimov03/Password-generator/assets/110220663/f95804bb-afd3-4f46-b723-c3b972910be4)
 
 ## Author
 Denis Dimov
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 Feel free to contribute to this project or report any issues. If you have suggestions or questions, please contact the author.
