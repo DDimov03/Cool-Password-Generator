@@ -1,65 +1,36 @@
-# Password Generator
+# Cool Password Generator
 
-This is a simple password generator script written in Python. It allows you to create strong and secure passwords easily.
+## Overview
+Cool Password Generator is a simple Python application built with tkinter that allows users to generate strong passwords quickly and easily. It offers customizable password length and the option to save generated passwords to a text file. 
 
-## Installation
+## Features
+- Generate strong passwords with various characters.
+- Specify password length within the range of 1 to 128 characters.
+- Option to save generated passwords to a text file.
+- User-friendly graphical user interface.
 
-To use this password generator, follow these installation instructions:
+## Prerequisites
+- Python 3.x
+- tkinter library
+- ttkthemes library
+- pyperclip library
 
-### Python Installation
+## Usage
+1. Run the `main.py` script.
+2. Enter your desired password length (1-128) in the input field.
+3. Click the "Generate Super Password 🚀" button to generate a strong password.
+4. Optionally, check the "Save as Text File" checkbox to save the password to a file.
+5. The generated password will be displayed in the text widget and copied to your clipboard.
 
-Ensure that Python is installed on your local machine. If it's not installed, you can download and install Python from the official website: [Python Downloads](https://www.python.org/downloads/).
+## Screenshots
+![Screenshot](screenshot.png)
 
-On Linux, you can use the following command to install Python 3:
+## Author
+Denis Dimov
 
-```bash
-sudo apt-get install python3
-```
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Clone the Repository
-Clone this GitHub repository to your local machine using the following command:
+---
 
-```bash
-git clone https://github.com/DDimov03/password-generator.git
-```
-
-Navigate to the Project Directory
-Change your current directory to the project directory:
-
-```bash
-cd password-generator
-```
-
-## To generate passwords using this script, follow these steps:
-
-1) Run the Script
-2) Use the following command to run the script:
-
-```bash
-python Generator.py
-This command will execute the password generator script.
-```
-
-## Follow the Prompts
-The script will ask you for some input, such as the length of the password and whether you want to include numbers, special characters, etc.
-
-## Generated Password
-After providing the required input, the script will generate a password and display it on the screen.
-
-## Troubleshooting
-If you encounter any issues while using the script, consider the following steps:
-
-Ensure Python is installed correctly.
-
-Verify that you are in the correct directory where "Generator.py" is located.
-
-Check your Python environment for the necessary libraries. You can install the required libraries using pip with the following commands:
-
-```bash
-pip install ast
-pip install random
-Please note that "ast" and "random" are standard Python libraries and are usually included with a standard Python installation.
-You may not need to install them separately.
-```
-
-### Feel free to open an issue on this GitHub repository if you encounter any further issues or have questions about using the password generator script.
+Feel free to contribute to this project or report any issues. If you have suggestions or questions, please contact the author.
